@@ -71,7 +71,12 @@ function checkMeasure(min, max, measure) {
 	if (isNaN(parseInt(measure)) ||
 		parseInt(measure) < min ||
 		parseInt(measure) > max) {
-		alert("Bitte eine Zahl zwischen " + min + " und " + max + " eingeben!");
+		// PV:IFCOND(pv:hasFeature('English'))
+		alert("Please gauge values must be between " + min + " and " + max);
+		// PV:ENDCOND
+		// PV:IFCOND(pv:hasFeature('German'))
+		 alert("Bitte eine Zahl zwischen " + min + " und " + max + " eingeben!");
+		// PV:ENDCOND
 		return NaN;
 	}
 	return parseInt(measure);
