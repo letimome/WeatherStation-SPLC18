@@ -170,7 +170,24 @@
           <cm:target cm:id="iR_SUhNUsw9szH4ny">./iiB5wK-h-iipDy4tU</cm:target>
           <cm:target cm:id="iE0jxNQg6nWFRQiKC">./iFIt10gOEo9ATa8dr</cm:target>
         </cm:relation>
+        <cm:relation cm:id="ivnXpHjHaVR_0ymzq" cm:type="ps:optional" cm:range="[0,n]">
+          <cm:target cm:id="ivweLJj-sdIjbM_MC">./iGN2Ka_iaArCAIJy6</cm:target>
+        </cm:relation>
       </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="igNcvBEg20x_CAzx6" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iXd488Yd4sMCB5IXc" cm:type="ps:string">leticia</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ipeXSL44ZNhxWKDA8" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iKKP3FaOl1Ex1uOVX" cm:type="ps:datetime">2018-03-18T12:19:40.510Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ivcBmEJpFYANXY-bv" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ivsd2uThD9U956Bo9" cm:type="ps:string">leticia</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iQOkJGme7-R31pcn0" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i0LD3Zxu7-RNZIgLh" cm:type="ps:datetime">2018-03-18T12:19:40.510Z</cm:constant>
+        </cm:property>
+      </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="iX8lAzIG6w74gctlZ" cm:mimetype="text/plain" cm:lang="de" cm:encoding="utf-8">Sensoren</cm:mimedesc>
         <cm:mimedesc cm:id="iv63ZAbiv4NxJNSa2" cm:mimetype="text/plain" cm:encoding="utf-8">Sensors</cm:mimedesc>
@@ -251,6 +268,35 @@
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="izONRZQ4VyVGfRkox" cm:mimetype="text/plain" cm:encoding="utf-8">Basque</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iGN2Ka_iaArCAIJy6" cm:name="WindDirection" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="isQdT32JhR89ckYlR" cm:class="ps:parents">
+        <cm:relation cm:id="inA-b9cLEN4sK2Por" cm:type="ps:parent">
+          <cm:target cm:id="i5FJZQPDCpd6Ab7tm">./i3o2RSj4Fg7d7nNlj</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="i2y1CD8cgHUaefvIp" cm:class="ps:dependencies">
+        <cm:relation cm:id="iQwGZjNhfwQd8qD4d" cm:type="ps:requires">
+          <cm:target cm:id="iA1fxtxilCHAgB8Wj">iZDYEoOJvFKXojv_z/iiB5wK-h-iipDy4tU</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iVyoVa_HDjJNfYKlK" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i8N8xEkxztq7tXR5a" cm:type="ps:string">leticia</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iMxWge-oXd6w1aOrz" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iNkPDm6i1ybW576_g" cm:type="ps:datetime">2018-03-18T12:19:40.510Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iFqMMQUGjdoraD5GI" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i37jj2q0E_ItmXDfF" cm:type="ps:string">leticia</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iwxUUHrhMFwHX3--U" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ivoAOUneXskjUgRde" cm:type="ps:datetime">2018-03-18T12:19:40.510Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iTHfxxkKj_ohhDJNt" cm:mimetype="text/plain" cm:encoding="utf-8">WindDirection</cm:mimedesc>
       </cm:vname>
     </cm:element>
   </cm:elements>

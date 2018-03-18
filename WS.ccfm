@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <cm:consulmodel xmlns:cm="http://www.pure-systems.com/consul/model" cm:id="iRZYU6x7KDUtPNAnI" cm:version="1.5" cm:type="ps:ccfm">
   <cm:head>
     <cm:properties>
@@ -42,15 +41,11 @@
           <cm:constant cm:id="imPbLefvD9JERarvL" cm:type="ps:string">com.ps.consul.eclipse.ui.sourceimport.JavaConfiguration</cm:constant>
         </cm:property>
         <cm:property cm:id="iIPTx-TBbpFLNlj8i" cm:type="ps:string" cm:invisible="true" cm:fixed="true" cm:readonly="true" cm:name="sourceimport:configuration:settings">
-          <cm:constant cm:id="iPPKbrPVqr_467oIG" cm:type="ps:string">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;&lt;associations&gt;&lt;association checked="false" desc="Other files" ending=".*" filetype="undefined" type="ps:object"/&gt;&lt;association checked="true" desc="Java source file" ending=".java" filetype="impl" type="ps:class"/&gt;&lt;association checked="true" desc="Ant build script" ending="build.xml" filetype="misc" type="ps:makefile"/&gt;&lt;association checked="true" desc="HTML" ending=".html" filetype="misc" type="ex:html"/&gt;&lt;association checked="true" desc="CSS" ending=".css" filetype="misc" type="ex:css"/&gt;&lt;association checked="true" desc="JavaScript" ending=".js" filetype="misc" type="ex:js"/&gt;&lt;association checked="true" desc="Images" ending=".png" filetype="misc" type="ex:img"/&gt;&lt;association checked="true" desc="WordML Documents" ending=".xml" filetype="misc" type="ex:doc"/&gt;&lt;switches&gt;&lt;switch name="HIDE_MT_COMPONENTS"&gt;true&lt;/switch&gt;&lt;switch name="USE_RELATIVE_PATHS"&gt;false&lt;/switch&gt;&lt;switch name="USE_SORTING"&gt;true&lt;/switch&gt;&lt;/switches&gt;&lt;values&gt;&lt;value name="RELATIVE_TO"&gt;workspace&lt;/value&gt;&lt;/values&gt;&lt;/associations&gt;</cm:constant>
+          <cm:constant cm:id="iPPKbrPVqr_467oIG" cm:type="ps:string">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&lt;associations&gt;&lt;association checked=&quot;false&quot; desc=&quot;Other files&quot; ending=&quot;.*&quot; filetype=&quot;undefined&quot; type=&quot;ps:object&quot;/&gt;&lt;association checked=&quot;true&quot; desc=&quot;Java source file&quot; ending=&quot;.java&quot; filetype=&quot;impl&quot; type=&quot;ps:class&quot;/&gt;&lt;association checked=&quot;true&quot; desc=&quot;Ant build script&quot; ending=&quot;build.xml&quot; filetype=&quot;misc&quot; type=&quot;ps:makefile&quot;/&gt;&lt;association checked=&quot;true&quot; desc=&quot;HTML&quot; ending=&quot;.html&quot; filetype=&quot;misc&quot; type=&quot;ex:html&quot;/&gt;&lt;association checked=&quot;true&quot; desc=&quot;CSS&quot; ending=&quot;.css&quot; filetype=&quot;misc&quot; type=&quot;ex:css&quot;/&gt;&lt;association checked=&quot;true&quot; desc=&quot;JavaScript&quot; ending=&quot;.js&quot; filetype=&quot;misc&quot; type=&quot;ex:js&quot;/&gt;&lt;association checked=&quot;true&quot; desc=&quot;Images&quot; ending=&quot;.png&quot; filetype=&quot;misc&quot; type=&quot;ex:img&quot;/&gt;&lt;association checked=&quot;true&quot; desc=&quot;WordML Documents&quot; ending=&quot;.xml&quot; filetype=&quot;misc&quot; type=&quot;ex:doc&quot;/&gt;&lt;switches&gt;&lt;switch name=&quot;HIDE_MT_COMPONENTS&quot;&gt;true&lt;/switch&gt;&lt;switch name=&quot;USE_RELATIVE_PATHS&quot;&gt;false&lt;/switch&gt;&lt;switch name=&quot;USE_SORTING&quot;&gt;true&lt;/switch&gt;&lt;/switches&gt;&lt;values&gt;&lt;value name=&quot;RELATIVE_TO&quot;&gt;workspace&lt;/value&gt;&lt;/values&gt;&lt;/associations&gt;</cm:constant>
         </cm:property>
         <cm:property cm:id="i--XrBNovVT3QwX3M" cm:type="ps:string" cm:invisible="true" cm:fixed="true" cm:name="ModelSyncStoreID">
           <cm:constant cm:id="ipCq8yep4WU9TW1kA" cm:type="ps:string">com.ps.consul.eclipse.ui.sourceimport.SourceImportSyncStore</cm:constant>
         </cm:property>
-        
-        
-        
-        
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="iwB0ADdyxxzxjADMG" cm:mimetype="text/plain" cm:encoding="utf-8">HTML Weather Station</cm:mimedesc>
@@ -80,10 +75,6 @@
         <cm:property cm:id="iymd3P8vB398WW5_W" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir">
           <cm:constant cm:id="ix9dBfspHXI7aNunK" cm:type="ps:directory">.</cm:constant>
         </cm:property>
-        
-        
-        
-        
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="i1usdLTqoNljYb7wP" cm:mimetype="text/plain" cm:encoding="utf-8">WeatherStationHTML</cm:mimedesc>
@@ -117,6 +108,7 @@
           <cm:target cm:id="iLnxfDwWFlyX0Ndv4">./ijwd_xX0L7tdhfGhu</cm:target>
           <cm:target cm:id="isMS4qt-KQ7DDs3GG">./iUjSG3ghJCQ4NTz5P</cm:target>
           <cm:target cm:id="ilpY2tCceE3KBeUvn">./iH1hj_CZNQq138Gjj</cm:target>
+          <cm:target cm:id="iDHiQ-njik181v5RX">./itCCeLVaJVOZ7syJl</cm:target>
         </cm:relation>
       </cm:relations>
       <cm:properties>
@@ -126,10 +118,18 @@
         <cm:property cm:id="i1uwzFp_3FELACxjQ" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir">
           <cm:constant cm:id="i2z1kn6fD0ec364Qf" cm:type="ps:directory">./images</cm:constant>
         </cm:property>
-        
-        
-        
-        
+        <cm:property cm:id="iHjURQpXAEwa-yI5v" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iYhgD4xq8MZyFdEGk" cm:type="ps:string">leticia</cm:constant>
+        </cm:property>
+        <cm:property cm:id="isewkzwRLcFRUET4Z" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iNqCjeC7-lOdbK58g" cm:type="ps:datetime">2018-03-18T12:22:37.698Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iQIGrihx0lEBbfeKd" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iOrlu62iVs55WS4Lr" cm:type="ps:string">leticia</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iKVDHiC0gTdZQPma6" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="imTZ3SF3oUmnETVbg" cm:type="ps:datetime">2018-03-18T12:22:37.698Z</cm:constant>
+        </cm:property>
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="iV6DyisSrYThwfkVq" cm:mimetype="text/plain" cm:encoding="utf-8">images</cm:mimedesc>
@@ -823,10 +823,6 @@
         <cm:property cm:id="iitrg55iBT1HiVLS-" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir">
           <cm:constant cm:id="iTlajJ28WLNqHEo8w" cm:type="ps:directory">./js</cm:constant>
         </cm:property>
-        
-        
-        
-        
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="i4KaASI3jfQ7Sj2GF" cm:mimetype="text/plain" cm:encoding="utf-8">js</cm:mimedesc>
@@ -864,10 +860,6 @@
         <cm:property cm:id="iqRb_M4q2TFCSDscd" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
           <cm:constant cm:id="i1f4gIUwpDHf9fmYR" cm:type="ps:filetype">misc</cm:constant>
         </cm:property>
-        
-        
-        
-        
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="iVY4K8oL3S5t2qf6S" cm:mimetype="text/plain" cm:encoding="utf-8">scale.js</cm:mimedesc>
@@ -905,10 +897,6 @@
         <cm:property cm:id="ix2ZqPoJuJK1J9Ekm" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
           <cm:constant cm:id="izjIRNFD-lbmX-UwV" cm:type="ps:filetype">misc</cm:constant>
         </cm:property>
-        
-        
-        
-        
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="iRWy-xIP7vaPtYPuW" cm:mimetype="text/plain" cm:encoding="utf-8">sensors.js</cm:mimedesc>
@@ -946,10 +934,6 @@
         <cm:property cm:id="iOX4QIffxgkVCZB5I" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
           <cm:constant cm:id="ilWe-bG8R6l_vq1Fu" cm:type="ps:filetype">misc</cm:constant>
         </cm:property>
-        
-        
-        
-        
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="ikiYbPKxcWE0BY2GK" cm:mimetype="text/plain" cm:encoding="utf-8">settings.js</cm:mimedesc>
@@ -968,12 +952,6 @@
           <cm:target cm:id="i7BeA7u-joChl_hBK">./iCFmQUZ77pCQOJtJ3</cm:target>
         </cm:relation>
       </cm:relations>
-      <cm:properties>
-        
-        
-        
-        
-      </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="iYTUnfomOhogCzI6m" cm:mimetype="text/plain" cm:encoding="utf-8">Weather Station User Manual</cm:mimedesc>
       </cm:vname>
@@ -1010,10 +988,6 @@
         <cm:property cm:id="iz2AiW1kGM3kBzzDa" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
           <cm:constant cm:id="inume1_fnR50tTYms" cm:type="ps:filetype">misc</cm:constant>
         </cm:property>
-        
-        
-        
-        
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="ia2a1p2fmg58_SDLO" cm:mimetype="text/plain" cm:encoding="utf-8">index.html</cm:mimedesc>
@@ -1045,10 +1019,6 @@
         <cm:property cm:id="iqNivDzKWzBg9j2b6" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir">
           <cm:constant cm:id="irW_1htLxwvxI4bPw" cm:type="ps:directory">./css</cm:constant>
         </cm:property>
-        
-        
-        
-        
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="icwCqqVzrPhqmuDMO" cm:mimetype="text/plain" cm:encoding="utf-8">css</cm:mimedesc>
@@ -1067,12 +1037,6 @@
           <cm:target cm:id="i4dCGzK_ys6hYudkx">./iUBw938yLlkqkAyYY</cm:target>
         </cm:relation>
       </cm:relations>
-      <cm:properties>
-        
-        
-        
-        
-      </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="ieulXlfbuu0teQ8qK" cm:mimetype="text/plain" cm:encoding="utf-8">imports</cm:mimedesc>
       </cm:vname>
@@ -1092,10 +1056,6 @@
         <cm:property cm:id="ipWT9jCudKxCcIhtm" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
           <cm:constant cm:id="ikDA-Wb_xWgQxOwzB" cm:type="ps:filetype">misc</cm:constant>
         </cm:property>
-        
-        
-        
-        
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="iMZyqKppqlrP0QRwL" cm:mimetype="text/plain" cm:encoding="utf-8">imports.css</cm:mimedesc>
@@ -1114,12 +1074,6 @@
           <cm:target cm:id="iZYXQxRwcJk4uGsYj">./iAbqgwnsgmLkWeD3t</cm:target>
         </cm:relation>
       </cm:relations>
-      <cm:properties>
-        
-        
-        
-        
-      </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="iSQ9exQvBZq9rGgXa" cm:mimetype="text/plain" cm:encoding="utf-8">main</cm:mimedesc>
       </cm:vname>
@@ -1139,10 +1093,6 @@
         <cm:property cm:id="iwzHkOjQvxpGjZL5B" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
           <cm:constant cm:id="i5ZFY2yZpHXqfwVtN" cm:type="ps:filetype">misc</cm:constant>
         </cm:property>
-        
-        
-        
-        
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="iqC110BaLRxz0GPNh" cm:mimetype="text/plain" cm:encoding="utf-8">main.css</cm:mimedesc>
@@ -1161,12 +1111,6 @@
           <cm:target cm:id="ijgybRoJWFhgCYk_E">./iJwKSWvouoHRNJ8mG</cm:target>
         </cm:relation>
       </cm:relations>
-      <cm:properties>
-        
-        
-        
-        
-      </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="iUdv6p1OhMJMfeViM" cm:mimetype="text/plain" cm:encoding="utf-8">pressure</cm:mimedesc>
       </cm:vname>
@@ -1186,10 +1130,6 @@
         <cm:property cm:id="iPXjbyVQepLH3a8zK" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
           <cm:constant cm:id="itTmZeHH62yb-GbpG" cm:type="ps:filetype">misc</cm:constant>
         </cm:property>
-        
-        
-        
-        
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="iLIayydv6Q6I6uG_h" cm:mimetype="text/plain" cm:encoding="utf-8">pressure.css</cm:mimedesc>
@@ -1208,12 +1148,6 @@
           <cm:target cm:id="ifXaJA-M6LCNd-0mB">./itkGcqD-e0WT4oZk4</cm:target>
         </cm:relation>
       </cm:relations>
-      <cm:properties>
-        
-        
-        
-        
-      </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="iDkWUfhutZl11T5YN" cm:mimetype="text/plain" cm:encoding="utf-8">tacho</cm:mimedesc>
       </cm:vname>
@@ -1233,10 +1167,6 @@
         <cm:property cm:id="ilP-drBkwrOc84F7D" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
           <cm:constant cm:id="iCxYP49YmuOFmWwjd" cm:type="ps:filetype">misc</cm:constant>
         </cm:property>
-        
-        
-        
-        
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="ipPLN-hZWEoFLPHFn" cm:mimetype="text/plain" cm:encoding="utf-8">tacho.css</cm:mimedesc>
@@ -1255,12 +1185,6 @@
           <cm:target cm:id="iH_we7dztiPc629DA">./i3ue6ux8s8UlKA8RV</cm:target>
         </cm:relation>
       </cm:relations>
-      <cm:properties>
-        
-        
-        
-        
-      </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="iG9frK15RI_rBzyXa" cm:mimetype="text/plain" cm:encoding="utf-8">thermometer</cm:mimedesc>
       </cm:vname>
@@ -1280,10 +1204,6 @@
         <cm:property cm:id="iy-a_Vh5bRz_lH28x" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
           <cm:constant cm:id="it7xfPxz0ZJc3eHcX" cm:type="ps:filetype">misc</cm:constant>
         </cm:property>
-        
-        
-        
-        
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="imO8Bo0K6Yc3Thbyn" cm:mimetype="text/plain" cm:encoding="utf-8">thermometer.css</cm:mimedesc>
@@ -1302,12 +1222,6 @@
           <cm:target cm:id="iXlwLXZCwBsr2DcFG">./iOrW_0PiNrxz1UVGR</cm:target>
         </cm:relation>
       </cm:relations>
-      <cm:properties>
-        
-        
-        
-        
-      </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="ileeL0jEd9Ue0VeKe" cm:mimetype="text/plain" cm:encoding="utf-8">wind</cm:mimedesc>
       </cm:vname>
@@ -1327,10 +1241,6 @@
         <cm:property cm:id="ibPQBDgM1bfp81E1Y" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
           <cm:constant cm:id="i5my1yfBVzmZweR9C" cm:type="ps:filetype">misc</cm:constant>
         </cm:property>
-        
-        
-        
-        
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="iVDqndALQQYkiaIys" cm:mimetype="text/plain" cm:encoding="utf-8">wind.css</cm:mimedesc>
@@ -1351,10 +1261,6 @@
         <cm:property cm:id="iH5zvavhUy9APXnHG" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
           <cm:constant cm:id="i4e5y1LaubKIvUumo" cm:type="ps:filetype">misc</cm:constant>
         </cm:property>
-        
-        
-        
-        
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="i4EfPDwMSr4CdrO4I" cm:mimetype="text/plain" cm:encoding="utf-8">Weather Station User Manual.xml</cm:mimedesc>
@@ -1373,12 +1279,6 @@
           <cm:target cm:id="i44cXQnD03-8PM0TW">./iGum5rGd-J23OrzDn</cm:target>
         </cm:relation>
       </cm:relations>
-      <cm:properties>
-        
-        
-        
-        
-      </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="inJCEaC9lijentoEL" cm:mimetype="text/plain" cm:encoding="utf-8">thermometer_blue</cm:mimedesc>
       </cm:vname>
@@ -1398,16 +1298,74 @@
         <cm:property cm:id="iihljqr3w19BR6CU0" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
           <cm:constant cm:id="ipVwHEv8bAqJr6mB_" cm:type="ps:filetype">misc</cm:constant>
         </cm:property>
-        
-        
-        
-        
         <cm:property cm:id="ir_u3BUytuAQNDSck" cm:type="ps:path" cm:fixed="true" cm:name="srcfile">
           <cm:constant cm:id="i_TnkUefzLJ3cX2x2" cm:type="ps:path">thermometer_blue.css</cm:constant>
         </cm:property>
       </cm:properties>
       <cm:vname>
         <cm:mimedesc cm:id="iA4JMwLhmZIGp733J" cm:mimetype="text/plain" cm:encoding="utf-8">thermometer_blue.css</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="itCCeLVaJVOZ7syJl" cm:name="windvane" cm:type="ex:img" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iXYBQwqRzsuAhmSAg" cm:class="ps:parents">
+        <cm:relation cm:id="ilsFPW2oPh0ryOaLY" cm:type="ps:parent">
+          <cm:target cm:id="iRt7FNoe851x4TR6U">./iMVbWtEcXdXh7LfKO</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="im546HgWaONDyRZFh" cm:class="ps:children">
+        <cm:relation cm:id="ibKUOsZCII62Ub_MW" cm:type="ps:optional">
+          <cm:target cm:id="iFleTs8OcLFBg5PX6">./iZvFgsNnFX3mARUic</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="icd3f9PiWrJiPTmiQ" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ifENpM4hpiu5LYj_H" cm:type="ps:string">leticia</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i3_rB37HsLdBvnME2" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iS4YAxZWw06xmDp55" cm:type="ps:datetime">2018-03-18T12:22:37.698Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iX-1X73y9K400tbl5" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ioo_yG15jW7NcnY6Y" cm:type="ps:string">leticia</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i0fe-x2qqd56xWXSQ" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i1LutbF_cBuD96hGD" cm:type="ps:datetime">2018-03-18T12:23:35.785Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="i6TWD9xwlzOTvgH5O" cm:mimetype="text/plain" cm:encoding="utf-8">windvane</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iZvFgsNnFX3mARUic" cm:name="windvaneFile" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iWiyIJc8Ezf4Vqo0Z" cm:class="ps:parents">
+        <cm:relation cm:id="iV1WiPFa2koYcfH7z" cm:type="ps:parent">
+          <cm:target cm:id="iX6L2zIUCkDWDEtcc">./itCCeLVaJVOZ7syJl</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i6R_anDki8G7DNQLR" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iIqH8CZJ8-ipSJuSe" cm:type="ps:path">wind_vane_degrees.png</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iA_V3Zesk8r5S5cec" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="imWXy5wN5yD6cPLmg" cm:type="ps:directory">./images</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iaxb_mLwTQlguNEEr" cm:type="ps:directory" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iC8shpPbjUVQ9VJXW" cm:type="ps:directory">./images</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iRsE8qt6vC28cUt69" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iHLc3_oRE9a1X4UsF" cm:type="ps:string">leticia</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iChv6fgbvDRCZTFqg" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ihHkApnP1tANEcvP9" cm:type="ps:datetime">2018-03-18T12:23:35.785Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="idoN6dw0dMl91bYpn" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iyczDGIskQ3ChDarl" cm:type="ps:string">leticia</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iIQQcbuizixBNTIFQ" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iGvDugFnfBgJlBusV" cm:type="ps:datetime">2018-03-18T12:25:46.169Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="i8c_gVgR0tqYwx-j6" cm:mimetype="text/plain" cm:encoding="utf-8">windvaneFile</cm:mimedesc>
       </cm:vname>
     </cm:element>
   </cm:elements>
