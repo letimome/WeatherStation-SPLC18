@@ -104,6 +104,9 @@ function setWarnings() {
 		if (warningText != '') warningText = 'Attention: ' + warningText;
 // PV:ENDCOND
 
+		// PV:IFCOND(pv:hasFeature('Basque'))
+		if (warningText != '') warningText = 'Kontuz: ' + warningText;
+// PV:ENDCOND
 		setElementText(element, warningText);
 		//element.style.display = 'inherit';
 	}
