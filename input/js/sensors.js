@@ -101,7 +101,7 @@ function setWarnings() {
 // PV:ENDCOND
 
 // PV:IFCOND(pv:hasFeature('English'))
-		if (warningText != '') warningText = 'Attention: ' + warningText;
+		if (warningText != '') warningText = 'Attention to the warning: ' + warningText;
 // PV:ENDCOND
 
 		setElementText(element, warningText);
