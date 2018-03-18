@@ -20,7 +20,7 @@ var maxWind = 130;
 var windScale = 'km/h';
 //PV:ENDCOND
 //PV:IFCOND(pv:hasFeature('Gale'))
-var windLimit = 80;
+var windLimit = 90;
 //PV:ENDCOND
 
 // PV:IFCOND(pv:hasFeature('English'))
