@@ -13,7 +13,9 @@ var windMeasure = 0;
 function applyWindSpeed() {
 	var measureText = document.getElementById("w_measure");
 	windMeasure = measureText.value;
-	var pointer = document.getElementById("w_point");
+	var intValue = checkMeasure(min, max, w_Measure);
+	if (isNaN(intValue)) return false;
+	intValue = (intValue - min)*(pxRange / (max - min));
 	
 	applyTachoValue(minWind, maxWind, measureText, pointer);
 	setWarnings();
