@@ -1,11 +1,11 @@
 
 // PV:IFCOND(pv:hasFeature('Temperature'))
-var minTemp = -40;
-var maxTemp = 60;
+var minTemp = -30;
+var maxTemp = 80;
 var tempScale = '°C';
 //PV:ENDCOND
 //PV:IFCOND(pv:hasFeature('Heat'))
-var tempLimit = 45;
+var tempLimit = 50;
 //PV:ENDCOND
 
 //PV:IFCOND(pv:hasFeature('AirPressure'))
@@ -16,15 +16,15 @@ var presScale = 'hPa';
 
 //PV:IFCOND(pv:hasFeature('WindSpeed'))
 var minWind = 0;
-var maxWind = 130;
+var maxWind = 160;
 var windScale = 'km/h';
 //PV:ENDCOND
 //PV:IFCOND(pv:hasFeature('Gale'))
-var windLimit = 90;
+var windLimit = 70;
 //PV:ENDCOND
 
 // PV:IFCOND(pv:hasFeature('English'))
-var mainTitle = 'Weather Station';
+var mainTitle = 'Weather Station Copenhangen';
 var tempTitle = 'Temperature';
 var presTitle = 'Air Pressure';
 var tempWarning = 'Extrem Heat';
