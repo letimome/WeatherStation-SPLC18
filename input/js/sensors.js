@@ -4,6 +4,11 @@ function applyPressure() {
 	var pointer = document.getElementById("p_point");
 	
 	applyTachoValue(minPres, maxPres, measureText, pointer);
+	if (measureText && pointer) {
+		var measure = measureText.value;
+		var intValue = checkMeasure(min, max, measure);
+		if (isNaN(intValue)) return true;
+	}
 	return false;
 }
 // PV:ENDCOND
@@ -19,18 +24,18 @@ function applyWindSpeed() {
 	setWarnings();
 	return false;
 }
-//PV:IFCOND(pv:hasFeature('WindDirection'))
-var windDirection=0; //o to 360 degrees
-function applyWindDirection() {
-	var measureText = document.getElementById("wd_measure");
-	windDirection = measureText.value;
-	var pointer = document.getElementById("wd_point");
-	applyTachoValue(minWind, maxWind, measureText, pointer);
-	//applyWindVaneDegrees(minWindDirection, minWindDirection, measureText, pointer);
-	setWarnings();
-	return false;
-}
-//PV:ENDCOND
+		//PV:IFCOND(pv:hasFeature('WindDirection'))
+		var windDirection=0; //o to 360 degrees
+		function applyWindDirection() {
+			var measureText = document.getElementById("wd_measure");
+			windDirection = measureText.value;
+			var pointer = document.getElementById("wd_point");
+			applyTachoValue(minWind, maxWind, measureText, pointer);
+			//applyWindVaneDegrees(minWindDirection, minWindDirection, measureText, pointer);
+			setWarnings();
+			return false;
+		}
+		//PV:ENDCOND
 
 //PV:ENDCOND
 
