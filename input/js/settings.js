@@ -9,8 +9,8 @@ var tempLimit = 45;
 //PV:ENDCOND
 
 //PV:IFCOND(pv:hasFeature('AirPressure'))
-var minPres = 910;
-var maxPres = 1040;
+var minPres = 800;
+var maxPres = 1100;
 var presScale = 'hPa';
 //PV:ENDCOND
 
@@ -24,7 +24,7 @@ var windLimit = 80;
 //PV:ENDCOND
 
 // PV:IFCOND(pv:hasFeature('English'))
-var mainTitle = 'Weather Station';
+var mainTitle = 'Weather Station London';
 var tempTitle = 'Temperature';
 var presTitle = 'Air Pressure';
 var tempWarning = 'Extrem Heat';

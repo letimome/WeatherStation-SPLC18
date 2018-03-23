@@ -12,7 +12,7 @@ function initiateScales() {
 
 // PV:IFCOND(pv:hasFeature('Temperature'))
 	var parent = document.getElementById('t_scale');
-	setScale(parent, minTemp, maxTemp, tempScale, 6);
+	setScale(parent, minTemp, maxTemp, tempScale, 20);
 // PV:ENDCOND
 
 // PV:IFCOND(pv:hasFeature('WindSpeed'))

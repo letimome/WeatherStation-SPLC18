@@ -2,8 +2,11 @@
 function applyPressure() {
 	var measureText = document.getElementById("p_measure");
 	var pointer = document.getElementById("p_point");
-	
-	applyTachoValue(minPres, maxPres, measureText, pointer);
+	if (measureText && pointer) {
+		var measure = measureText.value;
+		var intValue = checkMeasure(min, max, measure);
+	}else
+	  applyTachoValue(minPres, maxPres, measureText, pointer);
 	return false;
 }
 // PV:ENDCOND
@@ -14,8 +17,11 @@ function applyWindSpeed() {
 	var measureText = document.getElementById("w_measure");
 	windMeasure = measureText.value;
 	var pointer = document.getElementById("w_point");
-	
-	applyTachoValue(minWind, maxWind, measureText, pointer);
+	if (measureText && pointer) {
+		var measure = measureText.value;
+		var intValue = checkMeasure(min, max, measure);
+	}else
+	  applyTachoValue(minWind, maxWind, measureText, pointer);
 	setWarnings();
 	return false;
 }
@@ -71,7 +77,13 @@ function checkMeasure(min, max, measure) {
 	if (isNaN(parseInt(measure)) ||
 		parseInt(measure) < min ||
 		parseInt(measure) > max) {
+		// PV:IFCOND(pv:hasFeature('English'))
+				alert("Please gauge values must be between " + min + " and " + max);
+		// PV:ENDCOND
+		// PV:IFCOND(pv:hasFeature('German'))
 		alert("Bitte eine Zahl zwischen " + min + " und " + max + " eingeben!");
+		// PV:ENDCOND
+		
 		return NaN;
 	}
 	return parseInt(measure);
