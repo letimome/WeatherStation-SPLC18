@@ -1,43 +1,16 @@
-// PV:IFCOND(pv:hasFeature('AirPressure'))
+// 
 function applyPressure() {
 	var measureText = document.getElementById("p_measure");
 	var pointer = document.getElementById("p_point");
 	
 	applyTachoValue(minPres, maxPres, measureText, pointer);
-	if (measureText && pointer) {
-		var measure = measureText.value;
-		var intValue = checkMeasure(min, max, measure);
-		if (isNaN(intValue)) return true;
-	}
 	return false;
 }
-// PV:ENDCOND
+// 
 
-// PV:IFCOND(pv:hasFeature('WindSpeed'))
-var windMeasure = 0;
-function applyWindSpeed() {
-	var measureText = document.getElementById("w_measure");
-	windMeasure = measureText.value;
-	var intValue = checkMeasure(min, max, w_Measure);
-	if (isNaN(intValue)) return false;
-	intValue = (intValue - min)*(pxRange / (max - min));
-	
-	applyTachoValue(minWind, maxWind, measureText, pointer);
-		//PV:IFCOND(pv:hasFeature('WindDirection'))
-		var windDirection=0; //o to 360 degrees
-		var measureText = document.getElementById("wd_measure");
-		windDirection = measureText.value;
-		var pointer = document.getElementById("wd_point");
-		applyWindVaneDegrees(minWindDirection, minWindDirection, measureText, pointer);
-		//PV:ENDCOND
-		setWarnings();
-	return false;
-}
-		
+// 
 
-//PV:ENDCOND
-
-// PV:IFCOND(pv:hasFeature('WindSpeed') or pv:hasFeature('AirPressure'))
+// 
 function applyTachoValue(min, max, measureText, pointer) {
 	var divisor = Math.round((max - min)/13);
 	var c = Math.round(divisor/2);
@@ -56,9 +29,9 @@ function applyTachoValue(min, max, measureText, pointer) {
 	}
 	return false;
 }
-// PV:ENDCOND
+// 
 
-// PV:IFCOND(pv:hasFeature('Temperature'))
+// 
 var tempMeasure = 0;
 function applyTemperature() {
 	var min = minTemp;
@@ -80,7 +53,7 @@ function applyTemperature() {
 	setWarnings();
 	return false;
 }
-// PV:ENDCOND
+// 
 
 function checkMeasure(min, max, measure) {
 	if (measure == "" || measure == null) return NaN;
@@ -96,33 +69,23 @@ function checkMeasure(min, max, measure) {
 function setWarnings() {
 	warningText = '';
 	
-// PV:IFCOND(pv:hasFeature('Heat'))
+// 
 	if (!isNaN(tempLimit) && tempMeasure > tempLimit) {
 		warningText += tempWarning;
 	}
-// PV:ENDCOND
+// 
 	
-// PV:IFCOND(pv:hasFeature('Gale'))
-	if (!isNaN(windLimit) && windMeasure > windLimit) {
-		warningText += (warningText == '') ? '' : ', ';
-		warningText += windWarning;
-	}
-// PV:ENDCOND
+// 
 
 	var element = document.getElementById('warning');
 	if (warningText != '') {
 
-// PV:IFCOND(pv:hasFeature('German'))
-		warningText = 'Achtung: ' + warningText;
-// PV:ENDCOND
+// 
 
-// PV:IFCOND(pv:hasFeature('English'))
-		if (warningText != '') warningText = 'Attention to the warning: ' + warningText;
-// PV:ENDCOND
+// 
+		if (warningText != '') warningText = 'Attention: ' + warningText;
+// 
 
-		// PV:IFCOND(pv:hasFeature('Basque'))
-		if (warningText != '') warningText = 'Kontuz: ' + warningText;
-// PV:ENDCOND
 		setElementText(element, warningText);
 		//element.style.display = 'inherit';
 	}

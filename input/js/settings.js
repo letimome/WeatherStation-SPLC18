@@ -39,3 +39,13 @@ var tempWarning = 'Extreme Hitze';
 var windTitle = 'Windgeschwindigkeit';
 var windWarning = 'Sturmwarnung';
 // PV:ENDCOND
+
+//PV:IFCOND(pv:hasFeature('Basque'))
+var mainTitle = 'Euskalmet';
+var tempTitle = 'Temperatura';
+var presTitle = 'Haize Presioa';
+var tempWarning = 'Bero alerta';
+var windTitle = 'Haize abiadura';
+var windDirectionTitle = 'Haize direkzioa';
+var windWarning = 'Ekaitz alerta';
+// PV:ENDCOND
