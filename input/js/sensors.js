@@ -2,7 +2,8 @@
 function applyPressure() {
 	var measureText = document.getElementById("p_measure");
 	var pointer = document.getElementById("p_point");
-	
+	var pointer = checkMeasure(min, max, w_Measure);
+	if (isNaN(intValue)) return false;
 	applyTachoValue(minPres, maxPres, measureText, pointer);
 	return false;
 }
@@ -34,8 +35,7 @@ function applyTachoValue(min, max, measureText, pointer) {
 		if (isNaN(intValue)) return false;
 
 		intValue -= min;
-		if (intValue % divisor < c) intValue -= intValue % divisor;
-		else intValue += divisor - intValue % divisor;
+		
 
 		intValue /= divisor;
 		pointer.style.background = "url('images/n_" + intValue + ".png')";
